@@ -1,0 +1,165 @@
+
+/*import font library*/
+@import url('https://fonts.googleapis.com/css?family=Amiri|Quicksand&display=swap');
+body {
+	font-family: 'Quicksand', sans-serif;
+	line-height: 1.5rem;
+	font-size: 1rem;
+	margin: 0;
+	padding: 0
+}
+/*apply font family n size*/
+h1 {
+	font-size: 3rem;
+	font-family: 'Amiri', serif;
+}
+ 
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Arial", "Helvetica", sans-serif;
+    line-height: 1.5;
+}
+
+form {
+    margin: 2rem;
+}
+
+.box {
+   margin: 0 0 1rem 0; 
+}
+
+fieldset {
+    border: 1px solid #ddd;
+    padding: 1rem;
+}
+
+label {
+    display: block;
+}
+
+input[type="text"] {
+    font-family: "Arial", "Helvetica", sans-serif;
+    border: 1px solid #ddd;
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+/*apply font family n size*/
+p,span {
+	 
+	font-size: 1em;	
+
+}
+ 
+ 
+.box {
+    margin: 0 0 1rem 0;
+}
+form {
+    width: 56%;
+    padding: 20px;
+    padding: 70px 20px 20px 20px;
+    margin: 0 auto;
+	border: 1px solid #c9c9c9;
+    background-color: #f4f4f4;
+	position:relative;
+}
+form input,textarea {
+	max-width: 95%;
+    min-height: 30px;
+    border: 1px solid #c9c9c9;
+    padding: 0 5px;
+}
+ 
+.heading span {
+	border: 1px solid #c9c9c9;
+	background-color: #fff;
+    padding: 17px;
+    font-size: 25px;
+    
+}
+.box {
+	display:inline-block;
+	width:49%;
+	float:left;
+}
+.message-box {
+	width:100%;
+}
+.submit-area {
+	clear:both;
+}
+.form-area {
+	position:relative;
+}
+.heading {
+}
+textarea {
+	min-width: 93%;
+    min-height: 80px;
+}
+main {
+	padding: 58px 0;
+}
+form label {
+    display: block;
+    padding: 8px 0;
+}
+.submit-area input:hover { 
+	cursor:pointer
+}
+.submit-area input {
+	min-width: 140px;
+    background: #61c7ee;
+    color: #fff;
+}
+  
+.group-info address,address a {
+	font-size: 16px !important;
+	font-weight: 100;
+}
+.form-control {
+    border-radius: 0;
+    font-size: 14px;
+    height: 52px;
+    font-weight: normal;
+    background-repeat: no-repeat
+}
+.result {
+	width: 50%;
+	margin: 0 auto;
+}
+.error {
+    background-color: red;
+    padding: 4px 15px;
+    color: #fff;
+}
+@media only screen and (max-width: 25em){
+	 
+	.submit-area input {
+		min-width: 240px;
+	}	
+}
+
+@media (max-width:40em) and (min-width:25em) {
+	
+	body {
+		line-height: 1rem;
+	}
+	.submit-area input {
+			min-width: 197px;
+		}		
+}
+
+@media (max-width:50em) and (min-width:40em) {
+	 
+	body {
+		line-height: 1rem;
+	}
+	.submit-area input {
+				min-width: 150px;
+			}	
+}
